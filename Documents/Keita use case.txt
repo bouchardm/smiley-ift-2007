@@ -1,0 +1,21 @@
+Cas d'utilisation:		Configurer les paramètre d'affichage du design
+Système:			Recyclapp
+Acteurs:			Utilisateur
+Partie prenante et intérêt:	L'utilisateur désire un affichage qui lui convient 
+
+Pré conditions			Ces réglages sont disponibles si un fichier est chargé dans l'application (nouveau ou existant)
+Garantie en cas de succès	Les réglages choisis sont appliqués. Les éléments du design ne sont pas modifiés
+Scénario principale		1. L'utilisateur ajuste la taille du plan
+					1.1 L’utilisateur peut  augmenter ou diminuer la largeur et/ou la haute du plan.
+				2. L'utilisateur choisi de faire un zoom (avant et arrière)
+					2.1 L’utilisateur peut faire un zoom avant ou arrière .
+					2.2 Il peut continuer de se promener dans le plan
+				3.  L'utilisateur affiche la grille en arrière-plan
+				4.  L'utilsateur choisit le mode textuelle ou image
+
+
+Spécifications particulière	La taille du plan ne peut être plus petit que l'espace occupé des éléments du design
+	Le zoom se mesure en pourcentage et il y a aura une borne inférieur et supérieure
+	Un zoom ne change pas la taille. Et continue d'afficher de l'information selon sa pertinence en fonctionne du pourcentage du zoom
+	Les préférences sont choisit par défaut lors de la création d'un nouveau fichier, sinon elles sont sauvegardées 
+	La grille aura la forme d'un quadrillage à taille fixe et s'ajuste selon le zoom
