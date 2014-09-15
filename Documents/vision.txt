@@ -1,0 +1,10 @@
+Vision du projet
+Le présent document explique notre vision du projet RecyclApp. Afin de faire une explication claire et concise du projet nous avons faire une description, traité des fonctionnalité supporté, faire une estimation du coût et de l’échéancier approximatif du projet. 
+
+Premièrement, le projet consiste en une application permettent de faire le design d’un centre de tri. Cette application sera donc utilisé uniquement par le concepteur. L’application sera de type graphique afin de permettre au concepteur une vision efficace du design du centre de tri. L’application fera la gestion des entrants et des extrants, de l’équipement faisant le tri et la transformation des entrants et des convoyeurs reliant l’équipement. De plus, l’application va afficher plusieurs information sur les quantités en kg/h de chaque produit partout sur le réseau lors d’un clic ou d’un passage de la souris sur un élément.
+
+Deuxièmement, l’application va supporté plusieurs fonctionnalité. Dans le cadre de l’édition du design d’un centre de tri, l’application devra permettre d’ajouté, de supprimé, de modifier et de sélectionner une machine et un arc (représentant un convoi). L’application devra permettre aussi d’ajouté un matériau que les machine vont transformé et que les convoi vont transporté de machine en machine. Ce traitement du côté design du centre de tri servira à faire des simulations afin de vérifier s’il y a des goulot d’étranglement. De plus, afin d’être plus facile d’utilisation l’application va permettre d’annuler ou de refaire des actions, d’enregistrer le plan, l’exporter sous forme d’image, de zoomer/dézoomer, de faire apparaître une grille et de rendre cette grille magnétique.
+
+Troisièmement, si l’application était fait dans un cadre commercial le coûts serait estimer à 10 080$ à raison de 9h par semaine pour une équipe de quatre personne avec un salaire de 20$.
+
+Finalement, les tâches se feront dans un cadre d’itération de trois semaine. L’application finale sera remis le 16 décenbre 2014.
