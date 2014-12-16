@@ -1,0 +1,18 @@
+Ajout d'une station.
+L'utilisateur presse le bouton "Ajout de station". Le Mainframe détecte l'évenement et on met le sort center en mode de creation "Station".
+Par la suite, l'application attend un clic sur le view port et calcul la position du clic.
+Une fenêtre apparait et demande à l'utilisateur d'entre le nombre de sortie voulu.
+Une station est créé. L'objet est ajouté dans une liste de Station. La vue est mise è jour selon les options d'affichage.
+
+Ajout de convoyeur.
+L'utilisateur presse le bouton "Ajout de convoyeur". 
+Le mainframe met le sortcenter en mode Creation "Convoyeur 1" et attend que l'utilisateur clic ensuite sur une sortie d'un équipement.
+ Le mainframe met le sortcenter en mode "Convoyeur 2".Il attend pour un autre clic sur une entrée d'un équipement.
+Un convoyeur est créé. La vue est mise è jour selon les options d'affichage.
+
+Sélection d'une station
+Le mainframe détecte le clic, demande la position du clic au viewport, et interroge le controlleur pour savoir quel type d'équipement est-ce.
+Si c'est une station, il affiche ses informations relatives.
+
+Affichage du réseau
+Le viewport gère l'affichage du réseau en appelant SortCenterDrawer qui déssine les éléments nécessaires. Ce dernier obtient une liste de chaque éléments du sortCenter.
